@@ -9,8 +9,8 @@ import {ethers} from  'ethers'
 import base64ToImage from './base64ToImage'
 import logo from '../assets/logo.png'
 const Contract = "0x87864ca5941Ee31127AB46B4af72fE9D314A8BFD"
-const projectId ="2KlxBimFqB5o12FZd6HpgzF2D4p"
-const apiKey = "3c953e7dac479ed3f4f1440b232db772"
+const projectId ="xxxxxxxxxxxxxxxxxxxxxx"
+const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
 
@@ -19,7 +19,7 @@ async function Upload(file,usermail)
 
 {
   console.log(usermail)
-  const auth = 'Basic ' +"MktseEJpbUZxQjVvMTJGWmQ2SHBnekYyRDRwOjNjOTUzZTdkYWM0NzllZDNmNGYxNDQwYjIzMmRiNzcy"
+  const auth = 'Basic ' +"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
   const client = create({
     host:'ipfs.infura.io',
